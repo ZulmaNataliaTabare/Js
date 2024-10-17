@@ -33,9 +33,15 @@ console.log("10 es igual que 10? igualación estricta, además de comparar el da
 //10 es diferente que 10?
 let rtdo = 10 != 10;
 
-console.log("10 es diferente que 10?: ", rtdo);
+console.log("10 es distinto que 10?: ", rtdo);
 
-//10 es diferente que 10?
-let res = 10 != 10;
+//Es cierto que son distinto? Desigualdad estricta.
+let res = 10 !== "10";
 
-console.log("10 es diferente que 10?: ", res);
+console.log("10 es distinto que 10?: ", res);
+
+let num1= 10;
+let num2= 5;
+
+let res1 = num1 > num2;
+console.log(res1)
